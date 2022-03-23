@@ -1,0 +1,119 @@
+graph TD
+    XXXXXX[Shipped]
+    X{Milestone}
+    XX[Track]
+    XXX[Validated]
+    XXXX[Promising]
+    XXXXX[Blocked]
+    XXXXXXX[Speculative]
+
+    XXXXXX -.- AAAAA
+    X -.- AAAAA
+    XX -.- AAAAA
+    XXXXX -.- AAAAA
+    XXX -.- AAAAA
+    XXXX -.- AAAAA
+    XXXXXXX -.- AAAAA
+    AAAAA{Gather Founders}
+    AAAAA --> AAAA
+    AAAAA --> AA
+    AAAAA --> AAC
+    AAAAA --> AAA
+    AAAA[Design] ---> DDDB[Ecosystem Review]
+    DDDB --> DDDD
+    DDDD[Service Selection] --> AFFF[Access Control]
+    DDDD --> BBBB["Connection Network(s)"]
+    DDDD --> CCCC["Content Network(s)"]
+    AFFF --> AGGG[Admin API]
+    BBBB --> AGGG
+    CCCC --> AGGG
+    CCCC --> IAAA[Index]
+    IAAA --> IIII[Search and Subscribe API]
+    CCCC --> HHHH[Publish API]
+    AGGG --> JJJJ 
+    IIII --> JJJJ[Service Updates]
+    IIII --> LLLL[Application Ecosystem]
+    HHHH --> LLLL
+
+    AAA[Access] --> J(LAN Discovery)
+    AAC[Prototype] --> GGG[Web Server]
+    GGG --> I(Self Signed CA)
+    AAC --> CCC[Peer VPN + DNS]
+    AAA --> GGG
+    AAA --> G(Roaming VPN)
+    AAA --> H(Split Horizon DNS)
+    I --> D
+    G --> D[Client API]
+    H --> D
+    J --> D
+    DD --> FF
+    CC --> FF
+
+    AA --> CC[RockPi 4]
+    AA --> DD[Raspberry Pi 4]
+    EE --> FF[IMG Release Process]
+    AA[Deploy] ---> BB[Docker]
+    BB --> DDD{Developer Network}
+    BB --> EE[Virtual Machine]
+    FF --> EEE
+    BBB --> EEE
+    CCC --> DDD
+    I --> DDD
+
+    JJJJ --> MMMM{Production Network}
+    LLLL --> MMMM
+    III --> MMMM
+    NNN --> MMMM
+    OOO --> MMMM
+
+    
+    E --> EEE{Alpha Network}
+    HHH --> NNN[Software Package]
+    HHH --> OOO[Hardware Package]
+    EEE --> HHH(CI/CD System)
+    
+    DDD --> BBB["Demo App(s)"]
+    
+    D --> E[Manual Client Setup] 
+    E --> FFFF[Client App]
+
+    FFFF --> HHH
+    HHH --> III{Beta Network}
+
+    style X fill:#F9F527
+    style DDD fill:#F9F527
+    style EEE fill:#F9F527
+    style III fill:#F9F527
+    style MMMM fill:#F9F527
+
+    style XX fill:#CE99F3
+    style AAAA fill:#CE99F3
+    style AA fill:#CE99F3
+    style AAA fill:#CE99F3
+    style AAC fill:#CE99F3
+
+    style XXX fill: #B0C9F9
+    style CCC fill:#B0C9F9
+    style GGG fill:#B0C9F9
+    style G fill:#B0C9F9
+    style H fill:#B0C9F9
+    style J fill:#B0C9F9
+    style CC fill:#B0C9F9
+    style DD fill:#B0C9F9
+    style BBB fill: #B0C9F9
+    style E fill: #B0C9F9
+    style I fill:#B0C9F9
+    
+
+    style XXXX fill:#ADF6EB
+    style EE fill:#ADF6EB
+    style FFFF fill:#ADF6EB
+    style OOO fill: #ADF6EB
+
+    style XXXXX fill:#F86E61
+    style BB fill:#F86E61
+    style DDDB fill:#F86E61
+
+
+    style XXXXXX fill:#3DF74F
+    style AAAAA fill:#3DF74F
