@@ -73,6 +73,23 @@ We've run into problems here. We need to either solve the problem or re-evaluate
 
 We've had several ephemeral suggestions, and a couple formal ones. We need more formal input before we can claim a deep enough understanding of prior art to make intelligent design decisions.
 
+Several projects have come through side-band that need to be investigated and funneled through suggestions.samizdapp.com:
+
+- lens protocol (lens.dev)
+- Cabal (cabal.chat)
+- hubzilla (hubzilla.org)
+- matrix (matrix.org)
+- ActivityPub (https://en.wikipedia.org/wiki/ActivityPub)
+- Holochain (holochain.org)
+- 1749 (1749.com)
+- Polis (https://www.globenewswire.com/news-release/2021/11/15/2334568/0/en/Polis-Enters-the-DeFi-Space-Launching-Smartchain-DEX-and-BSC-Bridge.html)
+- PeerTube (joinpeertube.org)
+- IPFS
+- Ethereum Name Service
+- LBRY
+- SteemIt
+- Pleroma
+
 ### Docker (Deploy)
 
 Need devs to reliably be able to get started.
