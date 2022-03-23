@@ -94,6 +94,10 @@ Several projects have come through side-band that need to be investigated and fu
 
 Need devs to reliably be able to get started.
 
+https://github.com/balena-os/balenaos-in-container
+
+Joshua has run into an error with cgroups2, which is mentioned in the above repo's readme, but not in enough detail to straightforwardly solve the problem.
+
 ## Validated
 
 These goals have been proven possible by running R&D code. They are still in need of engineering, but the "happy path" has been confirmed as valid.
